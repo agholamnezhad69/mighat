@@ -1,0 +1,321 @@
+@media screen and (min-width: 1200px) {
+    #socail_menue {
+        display: none !important;
+    }
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1400px !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #menue ul li a {
+
+        font-size: 13px !important;
+    }
+
+    .social-item1 i {
+        margin: 0 auto !important;
+    }
+
+    .social-item1 span {
+        margin: 0 auto !important;
+    }
+
+    #socail_menue {
+        display: none !important;
+    }
+
+    #top-section .top-right-item {
+        height: 152px !important;
+    }
+
+    #top-section .top-right-item {
+        height: 131px !important;
+    }
+
+    .carousel1 .carousel1-right h3 {
+        font-size: 15px !important;
+    }
+
+    .carousel1 .carousel1-right .tutorial-time {
+
+        margin-top: 19px !important;
+        font-size: 10px !important;
+
+    }
+
+    .carousel1 .carousel1-right .tutorial-desc {
+        font-size: 11px !important;
+        text-align: justify !important;
+    }
+
+    .es__featuredWebinar-item-teacher {
+        font-size: 12px !important;
+    }
+
+    .featuredWebinarCard-price .price {
+        font-size: 19px !important;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .menu_btn1 {
+        display: none
+    }
+
+    #carousel2 {
+        display: none !important;
+    }
+
+    .menu_btn11 {
+        display: none
+    }
+
+    .menu_btn1 {
+        display: none
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #carousel1 {
+        display: none !important;
+    }
+
+    .carousel-cell {
+        width: 100%;
+        height: 200px;
+        margin-right: 10px;
+        background: #8C8;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    #menue .bg-light {
+        margin: unset !important;
+    }
+
+    #socail_menue {
+        display: none !important;
+    }
+
+    .menu_btn {
+        display: block !important;
+    }
+
+    .main-link-container {
+        /*  margin-top: 121px !important;*/
+    }
+
+    #top-section .top-right-item {
+        height: 70px !important;
+    }
+
+    .main-link-container {
+        margin-top: 20px !important;
+    }
+
+    .main_content_left .main_content_left_top_title {
+        display: none !important;
+    }
+
+    .desktop-box {
+        display: none !important;
+
+    }
+
+    .purchase__text {
+
+        font-size: 12px !important;
+    }
+
+    .kadamt_purchase .takhfif_icon {
+        top: 34px !important;
+        left: 100px !important;
+    }
+
+    .news-main-content ul li a span.news-item-content {
+        line-height: 26px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .news-main-content ul li a img {
+        width: 100% !important;
+
+    }
+
+    .flickity-page-dots {
+        bottom: -31px !important;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+
+    .purchase2 {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    div[u="thumb"] {
+        padding-right: 44px !important;
+    }
+    v-select[data-v-138dff1d] {
+        width: 151px !important;
+    }
+
+    .form-group.my-form-group label {
+
+        display: block !important;
+    }
+
+    .news-main-content ul li a img {
+        height: 150px !important;
+    }
+
+    .social-item1 i {
+
+        font-size: 20px !important;
+    }
+
+    #top-section .top-right-item {
+        height: 70px !important;
+    }
+
+    #socail_menue {
+        display: block !important;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-left: 29px;
+    }
+
+    #socail_top {
+        display: none !important;
+    }
+
+    .search_product input {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    #main_top .search_product .search-result {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .main-link-container {
+        margin-top: 20px !important;
+    }
+
+    .khadamat_prop h1 {
+        font-size: 12px !important;
+
+    }
+
+    .purchase {
+        margin-top: 20px !important;
+    }
+
+    .kadamt_purchase .takhfif_icon {
+        top: 35px !important;
+        left: 200px !important;
+    }
+
+    .purchase__text {
+        font-size: 24px !important;
+    }
+
+    section#content-single {
+        direction: ltr !important;
+    }
+
+    .purchase1 {
+        display: none !important;
+    }
+
+    .news-title-content {
+
+        font-size: 11px !important;
+        padding: 27px !important;
+        line-height: 30px !important;
+    }
+
+    .news-main-content ul li a span.news-item-content {
+        /* padding-top: 9px!important;*/
+        font-size: 14px !important;
+    }
+
+    .news-main-content ul li a span.news-item-date {
+        display: block;
+        text-align: center;
+        font-size: 14px !important;
+        padding-top: 0 !important;
+    }
+
+    .news-main-content ul li a span.news-item-content {
+        text-align: justify !important;
+        direction: rtl !important;
+    }
+
+    .employment-content-main a {
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .namaz-logo {
+        width: 176px !important;
+        height: 40px !important;
+        margin-right: 0 !important;
+    }
+
+    #main_top .main_top_top span {
+        font-size: 18px;
+    }
+
+    #main_top .main_top_top h2 {
+        font-size: 34px;
+        margin-bottom: 30px;
+
+    }
+
+    #main_top .search_product input {
+        font-size: 13px;
+    }
+
+    .c-infoBox__item {
+        float: right;
+        display: block;
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .employ-s-top h1 {
+        font-size: 22px !important;
+        font-weight: bolder !important;
+    }
+
+    #main_top .search_product {
+        width: 80% !important;
+    }
+
+    #main_top .search_product .search-result {
+        top: 64px !important;
+    }
+
+}
+
+

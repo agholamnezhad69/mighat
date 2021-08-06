@@ -1,0 +1,2021 @@
+/****************************start general style*/
+@font-face {
+    font-family: 'aviny';
+    src: url('../fonts/aviny.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'cinema';
+    src: url('../fonts/Cinema_Full.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iran';
+    src: url('../fonts/iran.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'shabnam';
+    src: url('../fonts/shabnam.ttf') format('truetype');
+    src: url('../fonts/shabnam.woff') format('woff');
+    src: url('../fonts/shabnam.eot') format('embedded-opentype');
+
+}
+
+@font-face {
+    font-family: 'shabnam_bold';
+    /*    src: url('../fonts/shabnamBold.ttf') format('truetype');
+        src: url('../fonts/shabnamBold.woff') format('woff');
+        src: url('../fonts/shabnamBold.eot') format('embedded-opentype');*/
+    src: url('../fonts/IRANSansFarsi_Bold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'yekanBold';
+    src: url('../fonts/yekanbold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'iransans_news_regular';
+    src: url('../fonts/iransansweb.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: 'iransans_news_bold';
+    src: url('../fonts/iransansweb_bold.ttf') format('truetype');
+
+}
+
+
+/*.div_flex {
+    display: flex !important;
+}
+
+.div_flex-fill {
+    flex: 1 1 auto !important;
+}*/
+html, body {
+    height: 100%;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: #f5f5f5 !important;
+    /* background: url('../img/ef.png'),#d3d3d3!important;*/
+}
+
+a {
+    text-decoration: none !important;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+a:hover {
+    color: #e70762 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.social-item {
+    margin: 0 2px;
+    height: 20px;
+    display: inline-block;
+
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+
+/****************************start scroll setting */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #171717;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #fffefe !important;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bdbbbb;
+}
+
+/****************************end header */
+/****************************start header */
+#header {
+    /* padding: 15px;
+     background-image: -webkit-linear-gradient(#184a5c 5%, #399 75%);
+     background-image: -moz-linear-gradient(#184a5c 5%, #399 75%);
+     background-image: -ms-linear-gradient(#184a5c 5%, #399 75%);
+     background-image: -o-linear-gradient(#184a5c 5%, #399 75%);
+     background-image: linear-gradient(#184a5c 5%, #d1229e 75%);
+     margin-top: -1px;*/
+    padding: 20px;
+    margin-top: -1px;
+    position: unset;
+    background: #3c0141 url(../img/pattern1.svg) repeat scroll 0 0;
+}
+
+/*.jssora061 {
+    background: #b4aaaa!important;
+    color: #fff!important;
+    border-radius: 44px!important;
+}*/
+.jssora061 .a {
+    fill: turquoise;
+    stroke: #b81010;
+    stroke-width: 360px;
+    stroke-linecap: round;
+    border: 1px solid #eee;
+}
+
+
+/****************************end header */
+
+/****************************start menue */
+#menue {
+    background: #4f0c55 !important;
+    border-bottom: 5px solid #e70762;
+}
+
+#footer {
+    font-family: 'iran';
+    color: #fff;
+    background: #4f0c55 !important;
+    border-top: 5px solid #e70762;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+
+#footer p {
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+#menue ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: iran;
+    padding: 5px 19px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: "|";
+    position: absolute;
+    top: 5px;
+    right: -3px;
+    color: #fff;
+}
+
+#menue .bg-light {
+    background-color: unset !important;
+    margin: auto !important;
+}
+
+/****************************end menue */
+/****************************start top section */
+#top-section {
+    /* background: #ffffff;*/
+    padding: 16px 0;
+}
+
+#top-section .top-right-item {
+    background: #102b3c;
+    margin: 0px 0;
+    text-align: center;
+    height: 196px;
+    border-radius: 6px;
+    padding: 8px;
+
+}
+
+#top-section .top-right-item1 {
+    margin: 17px 0;
+}
+
+#top-section .top-right-item a .top-right-item-container {
+    background-image: url("../img/download1.svg");
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+#top-section .top-right-item a .top-right-item-container span {
+    color: #399;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #1c5477;
+    margin: auto;
+    font-family: shabnam_bold !important;
+
+}
+
+/****************************end top section */
+
+/****************************end general style*/
+/****************************start  menue*/
+
+.mr-auto, .mx-auto {
+    margin-right: unset !important;
+    padding: 0;
+}
+
+.menu_btn {
+    display: none;
+}
+
+/****************************end  menue*/
+/****************************start  slider*/
+.amazingslider-slider-1 {
+    top: 8px !important;
+
+}
+
+.amazingslider-title-1 {
+    text-align: right;
+    padding-top: 10px !important;
+}
+
+.amazingslider-nav-container-1 {
+    top: 14px !important;
+    position: relative !important;
+}
+
+/****************************end  slider*/
+
+.section-seperate {
+    width: 100%;
+    height: 65px;
+    background-image: url("../img/download.svg");
+    background-color: #d7dfe7;
+}
+
+/****************************start nashriye*/
+#nashriye {
+    padding: 16px 0;
+}
+
+#nashriye h2 {
+    font-family: cinema;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #e44485;
+    padding: 23px 5px;
+    text-align: center;
+}
+
+#nashriye .nashriye-item {
+    padding-left: 10px;
+    padding-right: 0;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#nashriye .nashriye-item img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#nashriye .nashriye-item a {
+    color: #225;
+    text-decoration: none;
+
+}
+
+#nashriye .nashriye-item a .item-title {
+    width: 100%;
+    background: #4f0c55;
+    color: #fff;
+    padding: 24px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    font-family: iran;
+    line-height: 32px !important;
+    font-family: iransans_news_regular;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+}
+
+.row-nashriye {
+    margin: 8px 0 0 -11px !important;
+}
+
+/****************************end nashriye*/
+/****************************start Sidenav Push */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    right: -3px;
+    background-color: #4f0c55 !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-left: 2px solid #ee2c72 !important;
+    box-shadow: -15px 8px 15px 0 #000;
+}
+
+.sidenav a.menue_item {
+    padding: 24px 29px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-family: shabnam_bold;
+    position: relative;
+    width: 232px;
+}
+
+.sidenav a.menue_item:before {
+    content: ".";
+    width: 7px;
+    height: 15px;
+    display: inline-block;
+    color: #ee2c72;
+    position: absolute;
+    top: 19px;
+    right: 18px;
+    font-weight: 900;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.navbar-light .navbar-toggler {
+
+    display: none;
+}
+
+/****************************end Sidenav Push */
+
+/************************************************************start shop page */
+#main_top {
+    display: flex;
+    color: #fff;
+    min-height: 19.7rem;
+    position: relative;
+    /*  background: linear-gradient(
+          90deg, #4dba64, #25a06f);*/
+    background: linear-gradient(
+        90deg, #e70762, #e70762);
+    z-index: 10;
+}
+
+#main_top .mainSearch-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+    position: absolute;
+    background-image: url("../img/maintop.jpg");
+}
+
+#main_top .main_top_top {
+    margin: 34px auto 8px auto;
+    text-align: center;
+    width: 100%;
+}
+
+#main_top .main_top_top h2 {
+    font-family: shabnam_bold;
+    font-size: 50px;
+}
+
+#main_top .main_top_top span {
+    font-family: iran;
+    font-size: 22px;
+}
+
+#main_top .search_product {
+    position: relative;
+    color: #000;
+    border-radius: 6px;
+    box-shadow: 0 20px 50px 0 rgb(20 83 155 / 25%);
+    margin: 1.4rem auto;
+    width: 100%;
+}
+
+#main_top .search_product input {
+    width: 100%;
+    display: block;
+    padding: 1.389rem 2.5rem;
+    font-size: 1.33333rem;
+    border-radius: 5px;
+    font-family: shabnam_bold;
+    border: 2px solid #efefef;
+    outline: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+
+}
+
+#main_top .search_product input:focus {
+    border-color: #ee2c72;
+}
+
+#main_top .search_product .search-result {
+    background: #fff;
+    position: absolute;
+    top: 76px;
+    border-top: 1px solid #eee;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    width: 100%;
+    z-index: 10;
+
+}
+
+#main_top .search_product i.fa-pulse {
+    color: blue;
+    position: absolute;
+    left: 19px;
+    top: 23px;
+    font-size: 40px;
+}
+
+#main_top .search_product .search-result ul {
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 310px;
+
+}
+
+/*#main_top .search_product .search-result ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+#main_top .search_product .search-result ul li a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#main_top .search_product .search-result ul li div.img-holder {
+    flex: 0 0 55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#main_top .search_product .search-result ul li div.img-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+#main_top .search_product .search-result ul li div.text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding-right: 1rem;
+}
+
+#main_top .search_product .search-result ul li div.text .title {
+    flex: 0 0 100%;
+    color: #5d597a;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: iran;
+    padding: 9px 5px 5px 5px;
+}
+
+#main_top .search_product .search-result ul li div.text .date {
+    position: relative;
+    color: #87849e;
+    font-size: .7rem;
+    font-family: iran;
+    padding: 4px 10px 5px 3px;
+}
+
+/**********************************************start main content */
+#main_content {
+    margin-top: -20px;
+}
+
+.main_content_left {
+
+}
+
+.main_content_left .main_content_left_top_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 19px 22px;
+    box-shadow: 0 5px 10px 0 rgb(20 83 155 / 5%);
+    margin-bottom: 20px;
+}
+
+.main_content_left .main_content_left_top_title .mighat-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0;
+}
+
+.main_content_left .mighat-breadcrumb a {
+    position: relative;
+    font-family: iran;
+    margin: 0 11px;
+    color: #e70762;
+    font-weight: 900;
+}
+
+
+.main_content_left .main_content_left_top_title .mighat-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main_content_left .main_content_left_top_title .mighat-types {
+    flex: 0 0 100%;
+    border-top: 1px solid #c1cfe6;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0 9px 0;
+}
+
+.main_content_left .mighat-types span {
+    margin-left: .5rem;
+    font-weight: 700;
+    font-family: iran;
+
+}
+
+.main_content_left .mighat-types button {
+    border-radius: 2rem;
+    background: #f1f3f8;
+    padding: 0 .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: .93333rem;
+    outline: none;
+    border: none;
+    margin-left: .5rem;
+    color: rgba(93, 89, 122, .6);
+    font-family: iran;
+
+}
+
+.main_content_left .mighat-types button.active {
+    color: #fff;
+    background: linear-gradient(
+        90deg, #e70762, #e70762);
+
+}
+
+/***********************************************************/
+
+.card {
+    /*   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       margin: auto;
+       text-align: center;
+       font-family: arial;*/
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: #4f0c55;
+    border: unset;
+
+}
+
+.price {
+    font-family: iran;
+    margin-top: .8rem;
+    font-size: .93333rem;
+    color: rgb(255 255 255 / 60%);
+}
+
+.desc {
+    font-family: shabnam_bold;
+    color: #38a063;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ee2c72;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: shabnam_bold;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.row-mighat-list {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.dore-item {
+    /*background-color: #fff;*/
+    box-shadow: 0 5px 10px 0 rgb(20 83 155 / 5%);
+    border-radius: 6px;
+    transition: all 1s;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.dore-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 30px 0 rgba(20, 83, 155, .08) !important;
+}
+
+.dore-item .card h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: shabnam_bold;
+    font-weight: bolder;
+    padding: 15px 16px;
+    line-height: 30px;
+    display: -webkit-box !important;
+    overflow: hidden !important;
+    height: 77px !important;
+    /* line-height: 24px!important; */
+    -webkit-line-clamp: 2 !important;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+
+
+}
+
+.mighat-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #5d597a;
+    background: #fff;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 5px 10px 0 rgb(20 83 155 / 5%);
+    border-radius: 6px;
+    min-height: 166px;
+    margin-bottom: 20px;
+
+}
+
+.mighat-box .side-title {
+    font-weight: 700;
+    margin-bottom: .8rem;
+    border-bottom: 1px solid #c1cfe6;
+    padding-bottom: .6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: shabnam_bold;
+
+}
+
+.mighat-box .side-content {
+
+    font-family: iran;
+
+}
+
+.mighat-box .radiobutton .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: shabnam;
+}
+
+/* Hide the browser's default radio button */
+.mighat-box .radiobutton .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.mighat-box .radiobutton .checkmark {
+    position: absolute;
+    top: 4px;
+    right: -13px;
+    height: 18px;
+    width: 19px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.mighat-box .radiobutton .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.mighat-box .radiobutton .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.mighat-box .radiobutton .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.mighat-box .radiobutton .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.mighat-box .radiobutton .container .checkmark:after {
+    top: 5px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.mighat-box .checkbox .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.mighat-box .checkbox .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.mighat-box .checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.mighat-box .checkbox .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.mighat-box .checkbox .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.mighat-box .checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.mighat-box .checkbox .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.mighat-box .checkbox .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.mighat-box input {
+    width: 18px;
+    height: 21px;
+    position: relative;
+    top: 6px;
+    right: -4px;
+}
+
+/****************************start Sidenavfilter Push */
+
+#mySideFilter .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #4f0c55 !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-left: 2px solid #ee2c72 !important;
+}
+
+#mySideFilter .sidenav a.menue_item {
+    padding: 16px 29px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-family: iran;
+    position: relative;
+}
+
+#mySideFilter .sidenav a.menue_item:before {
+    content: ".";
+    width: 7px;
+    height: 15px;
+    display: inline-block;
+    color: #ee2c72;
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-weight: 900;
+}
+
+#mySideFilter .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#mySideFilter .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    #mySideFilter .sidenav {
+        padding-top: 15px;
+    }
+
+    #mySideFilter .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#mySideFilter .navbar-light .navbar-toggler {
+
+    display: none;
+}
+
+#filterProductButton {
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 29px;
+}
+
+.menu_btn1 {
+
+    font-family: iran;
+    font-size: 18px !important;
+    cursor: pointer;
+    transition: all .3s;
+    border: 1px solid #d8d8d8;
+    background: transparent;
+    color: #696983;
+    border-radius: 30px;
+    padding: 15px;
+
+
+}
+
+.menu_btn1 span {
+
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.menu_btn11 {
+
+    font-family: iran;
+    font-size: 18px !important;
+    cursor: pointer;
+    transition: all .3s;
+    border: 2px solid #ee2c72;
+    background: transparent;
+    color: #696983;
+    border-radius: 30px;
+    padding: .5rem 1rem;
+
+
+}
+
+.menu_btn11 span {
+
+    display: inline-block;
+    margin-right: 7px;
+}
+
+
+#mySideFilter .mighat-box {
+    border-radius: unset;
+    margin-bottom: unset !important;
+    background-color: #4f0c55;
+}
+
+#mySideFilter .mighat-box .side-title {
+    color: #d53071;
+
+
+}
+
+#mySideFilter .mighat-box .container {
+    color: #fff;
+
+}
+
+#mySideFilter .mighat-box .side-content {
+    color: #fff;
+}
+
+/****************************end Sidenavfilter Push */
+
+/************************************************************end shop page */
+/************************************************************start shop page single */
+
+#content-single {
+    padding: 30px 0;
+    min-height: 100%;
+}
+
+.khadamat_prop {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.khadamat_prop h1 {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+
+.khadamat_prop .deal-feature p img {
+    width: 100% !important;
+    height: unset !important;
+}
+
+.khadamat_prop_image {
+    margin: 0 19px !important;
+}
+
+
+.purchase1 {
+    position: sticky;
+    top: -1px;
+}
+
+.kadamt_purchase {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 130px 23px 35px 23px;
+    position: relative;
+    margin-top: 10px;
+    position: relative;
+}
+
+.purchase h1 {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.kadamt_purchase .percen {
+    position: absolute;
+    top: 0;
+    left: 22px;
+    background: #ff5a5f;
+    width: 62px;
+    height: 85px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.kadamt_purchase .percen .purchase-number {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-top: 8px;
+    font-family: iran;
+}
+
+.kadamt_purchase .percen .purchase-text {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-family: aviny;
+}
+
+.kadamt_purchase .takhfif_icon {
+    position: absolute;
+    background: url(../img/percent.png);
+    background-size: cover;
+    top: 5px;
+    height: 72px;
+    width: 97px;
+    left: 160px;
+}
+
+.purchase__suggest {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 18px;
+}
+
+.purchase__member {
+    font-size: 20px;
+    color: #3c3c3c;
+    font-family: iran;
+    padding: 0 11px;
+
+}
+
+.purchase__text {
+    color: #818181;
+    font-family: aviny;
+    font-size: 23px;
+
+}
+
+.purchase__suggest .icon-cart {
+    color: #bdbdbd;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+div#jssor_1 {
+    border-radius: 5px;
+    width: 100% !important;
+}
+
+.deal-feature ul {
+    list-style: none;
+}
+
+.deal-feature img {
+    max-width: 100% !important;
+}
+
+.deal-feature p {
+    font-family: 'iran';
+    line-height: 35px;
+    padding: 1px 44px 1px 44px;
+    text-align: justify;
+    direction: rtl;
+}
+
+.deal-feature h3 {
+    padding: 5px 20px 5px 5px;
+    font-family: 'shabnam_bold';
+}
+
+.purchase__btn {
+    position: relative;
+    height: 46px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #49c668;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 25px;
+    border: none;
+    font-size: 16px;
+    font-family: shabnam_bold;
+}
+
+
+.deal-radio__top-box {
+    padding-left: 20px;
+    min-height: 32px;
+}
+
+.deal-radio__title {
+    font-size: 11px;
+    font-weight: normal;
+    color: #070707;
+    line-height: 23px;
+    cursor: pointer;
+    font-family: 'iran';
+    margin-right: 15px;
+    margin-top: 17px;
+    /* border: 1px solid #ee2c72; */
+    background: #eee;
+    display: inline-block;
+    border-radius: 18px;
+    padding: 9px;
+}
+
+.deal-radio__bottom-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.deal-radio__purchase {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.deal-radio__number {
+    font-size: 16px;
+    color: #4f4f4f;
+    font-family: iran;
+}
+
+.deal-radio__text {
+    color: #616161;
+    font-size: 12px;
+    padding-right: 5px;
+    font-family: iran;
+}
+
+.deal-radio__left-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.deal-radio__price {
+    display: inline;
+}
+
+.deal-radio__old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #8c8c8c;
+    display: inline-block;
+    padding-left: 10px;
+    margin: 0;
+    font-family: iran;
+}
+
+.deal-radio__new-price {
+    color: #49c668;
+    display: inline;
+    padding-left: 8px;
+    margin: 0;
+    direction: rtl !important;
+}
+
+.deal-radio__price-number {
+    font-size: 20px;
+    font-family: iran;
+}
+
+.deal-radio__price-text {
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.deal-radio__percent-box {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    width: 42px;
+    height: 23px;
+    background: #ff5a5f;
+    border-radius: 5px;
+    font-family: iran;
+}
+
+.deal-radio__slide-box {
+    margin-top: 15px;
+    border-top: 1px solid #dcdcdc;
+}
+
+.deal-radio__list-option {
+    list-style: none;
+    padding: 10px 0 10px 20px;
+}
+
+.deal-radio__list-option li {
+    line-height: 25px;
+    font-family: iran;
+    direction: rtl;
+}
+
+.deal-radio__list-option li:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #646464;
+    margin: 0 0 0 10px;
+}
+
+.deal-radio__answer {
+    font-size: 13px;
+    color: #3c3c3c;
+}
+
+/***********************start cheditro */
+.deal-feature {
+    padding: 20px 0;
+}
+
+.deal-feature__title {
+    font-size: 18px;
+    border-bottom: dashed 1px #dcdcdc;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-family: shabnam_bold;
+    padding-right: 19px;
+}
+
+.deal-feature__text {
+    font-size: 14px;
+    padding-top: 20px;
+    margin: 0;
+    position: relative;
+}
+
+.deal-feature__text * {
+    font-size: 14px !important;
+    font-style: normal !important;
+    padding-right: 0;
+}
+
+.deal-feature__text * {
+    font-size: 14px !important;
+    font-style: normal !important;
+    padding-right: 0;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.deal-info__menu-btn i {
+    margin-left: 5px;
+}
+
+.deal-feature {
+    font-family: iran;
+}
+
+.deal-feature__text p {
+    padding-right: 15px;
+    line-height: 34px;
+}
+
+/***********************end cheditro */
+/************************************************************end shop page single */
+/************************************************************start  news single */
+
+.news-title {
+    width: 100%;
+    height: 115px;
+    background: url("../img/news_title.jpg") repeat-x scroll top center #000;
+    padding: 0 33px 5px;
+    left: 34px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 13px;
+
+}
+
+.news-title-content {
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: shabnam_bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.news-sidebar, .news-content {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.news-content.news-content1 {
+    padding: 15px 28px;
+}
+
+.news-content.news-content1 p img {
+    width: 100% !important;
+    height: unset !important;
+}
+
+.news-content.news-content1 p {
+    font-family: iransans_news_regular;
+    line-height: 37px;
+    text-align: justify;
+    direction: rtl;
+
+
+}
+
+.news-content.news-content1 p strong {
+    font-family: iransans_news_bold;
+    line-height: 30px;
+}
+
+.news-box {
+    direction: rtl;
+}
+
+.news-sidebar .news-box .news-box-title {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: shabnam_bold;
+}
+
+.news-sidebar .employment-box .news-box-title {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: shabnam_bold;
+}
+
+.news-sidebar .news-box .box-item {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+
+}
+
+.news-sidebar .news-box .news-box-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-sidebar .news-box .box-item a {
+    width: 100%;
+
+}
+
+.news-sidebar .news-box .box-item a img {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.news-sidebar .news-box .box-item a p {
+    font-family: iran;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul.hpUL {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    width: 100%;
+}
+
+ul.hpUL li {
+
+    font-size: .90em;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 20px 28px;
+}
+
+ul.hpUL li:before {
+    content: "";
+    background: transparent url(../img/li_star_1.gif) no-repeat scroll right 3px;
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+
+}
+
+ul.hpUL li a {
+    color: #103B7F;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-family: iran;
+
+}
+
+/************************************************************start  news page */
+
+.news-title-main {
+    width: 100%;
+    height: 115px;
+    background: url(../img/news_title.jpg) repeat-x scroll top center #000;
+    padding: 0 33px 5px;
+    left: 34px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-main-content {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.news-main-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-main-content ul li {
+    list-style: none;
+    position: relative;
+}
+
+.news-main-content ul li a {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    padding: 7px 13px;
+    border-bottom: 1px solid #eee;
+    font-family: iran;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+
+}
+
+.news-main-content ul li:before {
+    content: "";
+    background: transparent url(../img/li_star_1.gif) no-repeat scroll right 3px;
+    position: absolute;
+    top: 32px;
+    right: 2px;
+    width: 42px;
+    height: 29px;
+
+}
+
+.news-main-content ul li a img {
+    float: left;
+    border-radius: 5px;
+    width: 84px;
+    height: 61px;
+}
+
+.news-main-content ul li a span.news-item-content {
+    display: inline-block;
+    font-size: 18px;
+    padding: 18px 0;
+}
+
+.news-main-content ul li a span.news-item-date {
+    padding-top: 14px;
+    display: inline-block;
+    font-size: 16px;
+    color: #b0abab;
+    margin-left: 23px;
+    margin-right: 11px;
+    vertical-align: -21px;
+    margin-bottom: 17px;
+}
+
+/************************************************************end  news page */
+/************************************************************start  employment page */
+
+
+.employment-box-title {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: shabnam_bold;
+    margin-top: 25px;
+}
+
+.employment-sidebar, .employment-content {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+}
+
+.employment-sidebar, .employment-content {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.employment-content-main {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.employment-content-main a {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+    margin: 22px 19px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 29px 22px 0px 5px;
+    box-sizing: border-box;
+    font-family: 'shabnam_bold';
+}
+
+.employment-content-main > span {
+    display: block;
+}
+
+.employment-content-main ul {
+    color: #999;
+    margin-top: 9px
+}
+
+.employment-content-main ul li {
+    display: inline-block;
+}
+
+/*.employment-content-main ul li:after {
+    content: "فوری";
+    display: inline-block;
+    color: #fff;
+    background-color: #d84a3e;
+    padding: 4px 3px;
+    line-height: 1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}*/
+
+.employment-content-main ul li span {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+#mySideFilterEmployment .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #4f0c55 !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-left: 2px solid #ee2c72 !important;
+}
+
+#mySideFilterEmployment .sidenav a.menue_item {
+    padding: 16px 29px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-family: iran;
+    position: relative;
+}
+
+#mySideFilterEmployment .sidenav a.menue_item:before {
+    content: ".";
+    width: 7px;
+    height: 15px;
+    display: inline-block;
+    color: #ee2c72;
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-weight: 900;
+}
+
+#mySideFilterEmployment .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#mySideFilterEmployment .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    #mySideFilterEmployment .sidenav {
+        padding-top: 15px;
+    }
+
+    #mySideFilterEmployment .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#mySideFilterEmployment .navbar-light .navbar-toggler {
+
+    display: none;
+}
+
+#filterProductButtonEmployment {
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 29px;
+}
+
+/************************************************************end  employment page */
+/************************************************************start  employment single page */
+#employment-s-content {
+
+}
+
+.employ-s-top {
+    background-image: url(../img/est.jpg);
+    height: 150px;
+    margin-bottom: 15px;
+    /*start child center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.employ-s-top h1 {
+    font-family: shabnam_bold;
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.employment-s-box-content {
+    padding: 0px 0 25px 0;
+}
+
+.employment-s-sidebar, .employment-s-content {
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+}
+
+.employment-s-sidebar .employment-s-box .employment-s-box-title {
+    font-size: 17px !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    border: 1px solid #eee;
+    background: #ee2c72;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: shabnam_bold;
+}
+
+.e-form-item {
+    display: flex;
+    margin-top: 11px;
+}
+
+.e-form-item input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    resize: vertical;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #f0f0f0;
+    color: #777;
+    margin: 13px 24px;
+    font-family: iran;
+
+}
+
+.e-form-item input.email {
+
+    text-align: left;
+    direction: ltr;
+}
+
+.e-form-item span {
+    background-color: #1abc9c;
+    color: hsla(0, 0%, 100%, .95);
+    height: 50px;
+    width: 100%;
+    margin: 5px 24px;
+    text-align: center;
+    line-height: 48px;
+    font-family: 'iran';
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.e-form-item span:hover {
+    background-color: #1dd3af;
+    color: #fff;
+}
+
+.e-single-content {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+    /* margin-top: 10px; */
+}
+
+.e-single-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #e5e5e5;
+    font-family: iran;
+}
+
+.c-infoBox {
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-right: -25px;
+    margin-left: -25px;
+    padding: 0;
+}
+
+.c-infoBox:after, .c-infoBox:before {
+    content: " ";
+    display: table;
+}
+
+.c-infoBox__item {
+    float: right;
+    display: block;
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.c-infoBox__itemTitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'iran';
+}
+
+.tags {
+    font-size: 0;
+}
+
+.tags a.black, .tags span.black {
+    background-color: #4f0c55;
+    padding: 10px 30px;
+    font-family: 'iran';
+    width: 192px;
+}
+
+.tags a:last-child, .tags span:last-child {
+    margin-left: 0;
+}
+
+.tags a, .tags span {
+    line-height: 18px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #a5a5a5;
+    padding: 3px 7px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.tags a, .tags i, .tags span {
+    font-size: 11px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.o-box__title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: iran;
+    border-top: 1px dashed #e5e5e5;
+    padding-top: 22px;
+}
+
+.es__newBackdrop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    position: fixed;
+    visibility: hidden;
+    background: #000;
+    transition: opacity .3s;
+}
+
+.es__newBackdrop.active {
+    opacity: .5;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+

@@ -1,0 +1,336 @@
+
+[v-clock]{
+    display: none;
+}
+@font-face {
+    font-family: "badScript";
+url("font/BadScript-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'aviny';
+    src: url('../font/aviny.ttf');
+}
+
+@font-face {
+    font-family: 'dinar';
+    src: url('../font/dinar.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/WebYekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../font/IRANSansWeb-Light.ttf');
+}
+@font-face {
+    font-family: 'alisans';
+    src: url('../font/IRANSansFarsi_Bold.woff');
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1208px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.con .con .con .con .col-md-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.owl-carousel.offers-banner.owl-theme.owl-loaded.owl-drag {
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+.owl-item {
+    /*width: 360px!important;*/
+}
+
+.container2 {
+    padding-left: 0px !important;
+}
+
+html,
+body {
+    /* height: unset !important;
+     min-height: unset !important;*/
+}
+
+img.logo-inverse {
+    width: 46% !important;
+    padding-top: 0 !important;
+    margin-left: 20px;
+}
+
+html,
+body {
+    /*  height: unset !important;
+      min-height: unset !important;*/
+}
+
+.top-slider {
+    /*text-align: right;*/
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    /* background: transparent url(images/top-slider.jpg) no-repeat; */
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    padding-top: 2px !important;
+}
+
+.dark-top-slider {
+    /* direction: rtl;*/
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: url('../images/ef.png'),#d3d3d3!important;
+    padding-top: 131px;
+}
+
+.dark-top-slider .container .row .content1 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.dark-top-slider .container .row .content1 img {
+    border-radius: 5px;
+}
+
+.dark-top-slider .container .row .content2 {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.dark-top-slider .container .row .content2 img {
+    border-radius: 5px;
+}
+
+
+.dark-top-slider .container .row .content3 {
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+.dark-top-slider .container .row .content3 a {
+    display: inline-block;
+}
+
+.dark-top-slider .container .row .content3 img {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 2px;
+}
+
+.dark-top-slider .container .row .content3 .content3-2 {
+    margin-top: 2px;
+}
+
+.dark-top-slider img.slider-top-top {
+    padding-top: 210px !important;
+}
+
+.dark-top-slider p.title-shop {
+    font-family: 'Bad Script' !important;
+    font-size: 40px;
+    margin-top: 19px;
+}
+
+.go-to-menu {
+    width: 100%;
+    margin: 80px 10px;
+    height: auto;
+}
+
+.go-to-menu a {
+    padding: 18px 100px;
+    background: #f55d2c;
+    border-radius: 32px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.go-to-menu a:hover {
+    background: transparent;
+    border-color: #f16334;
+    color: #f16334 !important;
+}
+
+@media screen and (max-width: 810px) {
+    .dark-top-slider img.slider-top-top {
+        height: auto;
+        max-width: 90%;
+        vertical-align: top;
+    }
+}
+
+.header {
+    height: 83px;
+    /* background: url(../slider/1/data1/images/download.svg); */
+    background-size: cover;
+    background-position: center bottom;
+    background: #000055;
+}
+.menu.dropdown_page {
+    border-top: 1px solid #000055 !important;
+    background: #000055 !important;
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    .dark-top-slider .container .row .content3 img {
+        border-radius: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) and (max-width: 5000px) {
+}
+
+@media screen and (min-width: 922px) {
+    .header_cart {
+        margin-left: auto;
+        margin-bottom: 28px;
+        margin-right: 23px;
+        margin-top: 25px;
+    }
+
+    .cart__btn {
+        font-family: aviny !important;
+        background: unset;
+        padding: 15px 5px;
+        border-radius: 12px;
+        margin-right: 23px;
+        color: #f55d2c !important;
+    }
+
+    .sub-header {
+        position: relative;
+    }
+
+    .navbar {
+        position: absolute;
+      /*  right: 200px;
+        top: 10px;*/
+    }
+}
+
+/*.navbar-nav > li {
+float: right;
+}*/
+
+.ui.dropdown .menu > .channel_item {
+    text-align: right;
+    margin-bottom: 5px;
+    padding: 5px 3px;
+}
+
+.navbar-light .main_nav .nav-link {
+    font-family: alisans !important;
+    font-size: 16px;
+    color: #fff!important;
+}
+
+ul.navbar-nav.main_nav.align-self-stretch {
+    background-color: #000055;
+}
+.ui.dropdown .menu>.item{
+    font-family: aviny!important;
+    padding: 10px 10px 7px 7px;
+    font-size: 20px!important;
+
+}
+
+.news {
+    float: right;
+    /*background: #fff;*/
+    /* height: 323px;*/
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.news > div {
+    float: right;
+}
+
+.news .news-bottom {
+    bottom: 0;
+    padding: 0 2% 1%;
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+    background: rgba(0, 0, 0, .6);
+    max-height: 38%;
+    height: 100px;
+    padding: 5px 5px;
+}
+
+.news .news-bottom h2 {
+    font-family: iransans !important;
+    font-size: 18px !important;
+    text-align: right;
+}
+
+.news .news-bottom p {
+    font-family: iransans !important;
+    font-size: 15px !important;
+    text-align: right;
+    color: #fff !important;
+}
+select.mdb-select.md-form {
+    padding: 5px 25px;
+    border-radius: 6px;
+    background: #E5E5E5;
+    font-family: iran!important;
+}
+select.mdb-select.md-form  option{
+    font-family: iran!important;
+}
+ul[data-v-138dff1d] {
+
+    overflow-y: scroll;
+    max-height: 174px !important;
+}

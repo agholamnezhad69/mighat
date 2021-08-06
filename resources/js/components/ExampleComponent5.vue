@@ -1,0 +1,66 @@
+<template>
+    <div class="container">
+        <vue-dropzone
+            ref="myVueDropzone1"
+            id="dropzone1"
+            :options="dropzoneOptions"
+            @vdropzone-removed-file="removeProductLesson"
+            v-on:vdropzone-success="success"
+        ></vue-dropzone>
+    </div>
+</template>
+<style>
+.dropzone .dz-preview {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+div#dropzone1 {
+    border: unset !important;
+}
+</style>
+
+
+<script>
+
+    import vue2Dropzone from 'vue2-dropzone'
+    import 'vue2-dropzone/dist/vue2Dropzone.min.css'
+
+    export default {
+        components: {
+            vueDropzone: vue2Dropzone
+        },
+        data: function () {
+            return {
+                dropzoneOptions: {
+                    url: '/product_lesseon_Dropzone',
+                    maxFiles: 1,
+                    maxFilesize: 500000,
+                    timeout: 180000,
+                    addRemoveLinks: true,
+                    acceptedFiles: ".mp4",
+                    dictDefaultMessage: "<i class='fa fa-cloud-upload'></i>آپلود فیلم",
+                    headers: {
+                        "X-CSRF-TOKEN": document.head.querySelector("[name=csrf-token]").content
+                    }
+                },
+            }
+        },
+        mounted() {
+        },
+        methods: {
+            success(file, response) {
+                this.$emit('add_l_film', response, file)
+            },
+            removeProductLesson(file, error, xhr) {
+                if (this.$refs.myVueDropzone1.dropzone.disabled !== true) {
+                    this.$emit('add_l_film', "", file)
+                }
+            }
+        }
+    }
+</script>
