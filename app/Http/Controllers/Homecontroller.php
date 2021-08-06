@@ -542,6 +542,7 @@ class Homecontroller extends Controller
 
     public function get_shop_single($id)
     {
+//        hjkl
         /*********************tbl_my_kadamat_refahi****************/
 
         $q_kr = DB::table('tbl_my_kadamat_refahi')
